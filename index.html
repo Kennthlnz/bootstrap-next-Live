@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href ="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" /> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Next Live</title>
+</head>
+`
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        
+   
+    </header>
+   <div class="container">
+        <div class="row row-content">
+            <div class="col-sm">
+                <h1 class="d-flex justify-content-center mt-4">About Us</h1>
+                  
+                        <p class="d-flex justify-content-center text-center"> Welcome! <br>
+                            <br>We are Next Live.
+                            <br> We are professionals that have over 10 years experience in the live production industry. <br>
+                        We build Ableton Live sets to help synchronize productions of all sizes. <br> We are a small team that will help take your vision and turn it into reality. <br>
+                        Please contact us if you have any further questions!</p>
+
+            </div>  
+          </div>
+   </div>
+   <br> <br>
+   <!-- Accordion start -->
+   <div class="container">
+        <div class="row">
+            <div class="col-10 offset-1">
+                <div id="accordion">
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h3 class="text-center">
+                                <a data-toggle="collapse" data-target="#packageOne" data-parent="#accordion"> Basic Package </a>
+                            </h3>
+                            <div class="collapse show" id="packageOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    
+                                        <ul class="justify-content-center">
+                                            <lh class="text-center"> <h5>Basic Session with Tracks, but without MIDI cues or Timecode</h5> </lh>
+                                            <li class=" mt-2">One set per week</li>
+                                            <li class=" mt-2">45 minute meeting (phone call or zoom) before Rehearsal to plan and debrief the previous week. </li>
+                                            <li class=" mt-2">Price - $500 per month</li>
+                                        </ul>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h3 class="text-center">
+                                <a class="collapsed" data-toggle="collapse" data-target="#packageTwo" data-parent="#accordion"> Deluxe Package </a>
+                            </h3>
+                            <div class="collapse" id="packageTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    
+                                    <ul>
+                                        <lh class="text-center"> <h5>Session with Tracks, MIDI Cues, and Timecode </h5> </lh>
+                                        <li class=" mt-2">One set per week</li>
+                                        <li class=" mt-2"> 1.5 hr. meeting (phone call or zoom) before Rehearsal to plan and debrief the previous week. </li>
+                                        <li class=" mt-2">Price - $750 per month</li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h3 class="text-center">
+                                <a class="collapsed" data-toggle="collapse" data-target="#packageThree" data-parent="#accordion"> Single Session </a>
+                            </h3>
+                            <div class="collapse" id="packageThree" data-parent="#accordion">
+                                <div class="card-body"> 
+                                    <ul>
+                                        <lh> <h5 class="text-center mr-5"> One Time Session </h5> </lh>
+                                        <li class="mt-2" >One Session</li>
+                                        <li class="mt-2"> 1.5 hr. meeting (phone call or zoom) to setup session </li>
+                                        <li class=" mt-2">Price for Basic Session - $175 | Price for Deluxe Session - $275  </li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+<!-- End of Accordion -->
+<!-- Start of FAQ MODAL list -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-10 offset-1">
+            <h3 class="mt-5 text-center"> Frequently Asked Questions</h3>
+            <ul class="list-unstyled text-center">
+                <li class="mt-2 btn" data-toggle="modal" data-target="#modalOne"> What equiptment do we need? </li>
+                <li class= "mt-2 btn" data-toggle="modal" data-target="#modalTwo"> Does Next Live Supply or Make Tracks? </li>
+                <li class= "mt-2 btn" data-toggle="modal" data-target="#modalThree"> Is there flexibility in how the session are formatted? </li>
+                <li class= "mt-2 btn" data-toggle="modal" data-target="#modalFour"> How are payments made? </li>
+                <li class="mt-2 btn" data-toggle="modal" data-target="#modalFive"> Does Next Live offer training?</li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<!-- start of modalOne -->
+<div id="modalOne" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">What equiptment do we need?</h3>
+                <button type="button" class="close" onclick="$('#modalOne').modal('hide');">&times</button>
+            </div>
+            <div class="modal-body">
+                <p class="text-center">
+                    That can vary on the type of playback and synchronization you are trying to accomplish. 
+                    <br> You will need at least a computer running Ableton Live 10 or newer.
+                    If you are wanting to use MIDI cues to control Pro Prester, your lighting console, Video wall, etc, that will depend on your setup.
+                    <br><br><strong>If you have questions, please contact us.</strong>
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- Start of ModalTWo -->
+<div id="modalTwo" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Does Next Live Supply or Make Tracks?</h3>
+                <button type="button" class="close" onclick="$('#modalTwo').modal('hide');">&times</button>
+            </div>
+            <div class="modal-body">
+                <p class="text-center">
+                   <strong>Not at this time. <br></strong> 
+                    Because of copywrite and legal restrictions, 
+                    you will need to supply us with access to your MultiTracks, 
+                    LoopCommunity account, or a Tracks Library.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- start of modalThree -->
+<div id="modalThree" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Is there flexibility in how the session are formatted? </h3>
+                <button type="button" class="close" onclick="$('#modalThree').modal('hide');">&times</button>
+            </div>
+            <div class="modal-body">
+                <p class="text-center">
+                    <strong>Yes!</strong><br>
+                    We can make any session in Arrangement or Session View. For ease of use we normally suggest Session View.<br>
+                    We will go over this with you in our weekly meetings.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- start of modalFour -->
+<div id="modalFour" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title"> How are Payment Made?</h3>
+                    <button type="button" class="close" onclick="$('#modalFour').modal('hide');">&times</button>   
+                </div>
+                <div class="modal-body">
+                    <p class="text-center"> Payments will be processed through PayPal or StripeBank.<br>
+                                            If you are on a subscription, payment will be drafted on the first of the month.
+                    </p>
+                </div>
+          </div>
+    </div>
+</div>
+<!-- start of Modal Five -->
+<div id="modalFive" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+           <div class="modal-header">
+               <h3 class="modal-title">Does Next Live offer training?</h3>
+               <button type="button" class="close" onclick="$('#modalFive').modal('hide');">&times</button>
+           </div> 
+           <div class="modal-body">
+               <p class="text-center">
+                <strong>Yes!</strong> <br>
+                contact us below for more info!
+               </p>
+           </div>
+        </div>
+    </div>
+</div>
+
+<!-- contact us -->
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2 class=" mt-5 d-flex justify-content-center"> Contact Us</h2>
+
+        </div>
+        <div class="col-8">
+            <form class="col-sm-8 offset-sm-5">
+                <div class="form-group">
+                    <label for="inputFName"> First Name</label>
+                    <input type="text" id="inputFName" class="form-control" aria-describedby="nameHelp" placeholder="Enter First Name" >
+
+                </div>
+                <div class="form-group">
+                    <label for="inputLName"> First Name</label>
+                    <input type="text" id="inputLName" class="form-control" aria-describedby="nameHelp" placeholder="Enter Last Name">
+
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email Address</label>
+                    <input type="email" id="inputEmail" class="form-control" aria-describedby="emailHelp" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="inputPhone">Phone Number</label>
+                    <input type="phone-number" id="inputPhone" class="form-control" aria-describedby="passwordHelp" placeholder="Enter Phone Number">
+                </div>
+                <button type="submit" class="btn btn-primary"> Submit</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+  
+
+
+    <footer>
+
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
