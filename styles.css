@@ -67,8 +67,12 @@ li{
     text-transform: capitalize;
     
 }
-footer{
+.site-footer{
     height: 200px;
+    background-image: linear-gradient(to bottom right,rgb(134, 130, 130),rgb(241, 241, 241));
 
 
+}
+.btn-link{
+    background:transparent;
 }
