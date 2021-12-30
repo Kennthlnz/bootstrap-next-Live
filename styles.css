@@ -1,29 +1,74 @@
 .jumbotron{
-    background-color: rgb(75, 74, 74);
+    padding-top: 1rem;
+    background-color: transparent;
     height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
     
+}
+.navbar{
+    background-image: linear-gradient(to bottom right,rgb(134, 130, 130),rgb(241, 241, 241));
+}
+.navbar a{
+    font-size: 2.4rem;
+}
+.blur{
+    backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.2);
+    height: 25vh;
+    width: 100%;
 }
 body{
     background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    font-family: 'Inter', sans-serif;
+font-family: 'Lora', serif;
+color: rgba(0, 0, 0, 0.808);
 }
-    
-.navbar {
-    background-color: transparent;
-    padding-top: 0em;
-    font-size: 50px;
-    font-weight: 200;  
-    color: #d8d8d8; 
-
-    
+h1{
+    padding-top: 4rem;
 }
-
+        
 p{
     font-size: 1.6rem;
     
 }
 li{
     font-size: 22px;
+    
+}
+.list-unstyled li{
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  
+    /* padding-top: .60rem; */
+
+    /* border: rgb(245, 245, 245); */
+    /* border-style: solid;  */
+}
+.card-header{
+     background-color: rgb(255, 255, 255);
+  
+}
+.card-header a {
+    font-size: 1.7rem;
+    color: black;
+}
+.card-body{
+    background-color: rgb(255, 255, 255);
+    
 }
 .modal-title{
     margin: 0 auto;
+    padding-left: 3.74em;
+    text-transform: capitalize;
+    
+}
+footer{
+    height: 200px;
+
+
 }

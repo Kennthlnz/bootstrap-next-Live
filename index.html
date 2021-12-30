@@ -12,27 +12,54 @@
     <link rel="stylesheet" href="styles.css"/>
     <title>Next Live</title>
 </head>
-`
+
 <body>
     <header class="jumbotron jumbotron-fluid">
-        
+        <nav class="navbar navbar-light navbar-expand-lg sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="Images/Next live Logo.png"width="200" height="150" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active btn btn-lg float-left" role="button" href="#">About Us <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active btn btn-lg float-left" role="button" href="#packages">Packages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active btn btn-lg float-left" role="button" href="#FAQ">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active btn btn-lg float-left" role ="button" href="#contactUs">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
    
     </header>
+    
    <div class="container">
         <div class="row row-content">
             <div class="col-sm">
-                <h1 class="d-flex justify-content-center mt-4">About Us</h1>
+                <h1 class="d-flex justify-content-center mt-4 mb-3" id="aboutUs">About Us</h1>
                   
-                        <p class="d-flex justify-content-center text-center"> Welcome! <br>
+                        <p class="d-flex justify-content-center text-center"> Welcome!
                             <br>We are Next Live.
                             <br> We are professionals that have over 10 years experience in the live production industry. <br>
                         We build Ableton Live sets to help synchronize productions of all sizes. <br> We are a small team that will help take your vision and turn it into reality. <br>
                         Please contact us if you have any further questions!</p>
 
-            </div>  
+            </div> 
+            
           </div>
    </div>
-   <br> <br>
+   <br>  <br> <br>
+   <h1 class="text-center" id="packages"> Packages</h1>
+   <br>
    <!-- Accordion start -->
    <div class="container">
         <div class="row">
@@ -41,13 +68,13 @@
                     <div class="card">
                         <div role="tab" class="card-header">
                             <h3 class="text-center">
-                                <a data-toggle="collapse" data-target="#packageOne" data-parent="#accordion"> Basic Package </a>
+                                <a data-toggle="collapse" data-target="#packageOne" data-parent="#accordion"> <strong>Basic Package</strong> </a>
                             </h3>
-                            <div class="collapse show" id="packageOne" data-parent="#accordion">
+                            <div class="collapse" id="packageOne" data-parent="#accordion">
                                 <div class="card-body">
                                     
-                                        <ul class="justify-content-center">
-                                            <lh class="text-center"> <h5>Basic Session with Tracks, but without MIDI cues or Timecode</h5> </lh>
+                                        <ul>
+                                            <lh class="text-lg-center"> <h4><strong>Basic Session with Tracks, but without MIDI cues or Timecode</strong></h4> </lh>
                                             <li class=" mt-2">One set per week</li>
                                             <li class=" mt-2">45 minute meeting (phone call or zoom) before Rehearsal to plan and debrief the previous week. </li>
                                             <li class=" mt-2">Price - $500 per month</li>
@@ -62,13 +89,13 @@
                     <div class="card">
                         <div role="tab" class="card-header">
                             <h3 class="text-center">
-                                <a class="collapsed" data-toggle="collapse" data-target="#packageTwo" data-parent="#accordion"> Deluxe Package </a>
+                                <a class="collapsed" data-toggle="collapse" data-target="#packageTwo" data-parent="#accordion"> <strong>Deluxe Package</strong> </a>
                             </h3>
                             <div class="collapse" id="packageTwo" data-parent="#accordion">
                                 <div class="card-body">
                                     
                                     <ul>
-                                        <lh class="text-center"> <h5>Session with Tracks, MIDI Cues, and Timecode </h5> </lh>
+                                        <lh class="text-sm-center"> <h4><strong>Session with Tracks, MIDI Cues, and Timecode</strong> </h4> </lh>
                                         <li class=" mt-2">One set per week</li>
                                         <li class=" mt-2"> 1.5 hr. meeting (phone call or zoom) before Rehearsal to plan and debrief the previous week. </li>
                                         <li class=" mt-2">Price - $750 per month</li>
@@ -83,12 +110,12 @@
                     <div class="card">
                         <div role="tab" class="card-header">
                             <h3 class="text-center">
-                                <a class="collapsed" data-toggle="collapse" data-target="#packageThree" data-parent="#accordion"> Single Session </a>
+                                <a class="collapsed" data-toggle="collapse" data-target="#packageThree" data-parent="#accordion"> <strong>Single Session </strong></a>
                             </h3>
                             <div class="collapse" id="packageThree" data-parent="#accordion">
                                 <div class="card-body"> 
                                     <ul>
-                                        <lh> <h5 class="text-center mr-5"> One Time Session </h5> </lh>
+                                        <lh> <h4 class="text-sm-center mr-5"><strong>One Time Session </strong></h4> </lh>
                                         <li class="mt-2" >One Session</li>
                                         <li class="mt-2"> 1.5 hr. meeting (phone call or zoom) to setup session </li>
                                         <li class=" mt-2">Price for Basic Session - $175 | Price for Deluxe Session - $275  </li>
@@ -108,13 +135,13 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-10 offset-1">
-            <h3 class="mt-5 text-center"> Frequently Asked Questions</h3>
+            <h1 class="mt-5 text-center" id="FAQ"> Frequently Asked Questions</h1>
             <ul class="list-unstyled text-center">
-                <li class="mt-2 btn" data-toggle="modal" data-target="#modalOne"> What equiptment do we need? </li>
-                <li class= "mt-2 btn" data-toggle="modal" data-target="#modalTwo"> Does Next Live Supply or Make Tracks? </li>
-                <li class= "mt-2 btn" data-toggle="modal" data-target="#modalThree"> Is there flexibility in how the session are formatted? </li>
-                <li class= "mt-2 btn" data-toggle="modal" data-target="#modalFour"> How are payments made? </li>
-                <li class="mt-2 btn" data-toggle="modal" data-target="#modalFive"> Does Next Live offer training?</li>
+                <li class=" mt-2 btn col-8" data-toggle="modal" data-target="#modalOne"> What equipment do we need? </li>
+                <li class= "mt-0 btn col-8" data-toggle="modal" data-target="#modalTwo"> Does Next Live Supply or Make Tracks? </li>
+                <li class= "mt-0 btn col-8" data-toggle="modal" data-target="#modalThree"> Is there flexibility in How the session are formatted? </li>
+                <li class= "mt-0 btn col-8" data-toggle="modal" data-target="#modalFour"> How are payments made? </li>
+                <li class="mt-0 btn col-8" data-toggle="modal" data-target="#modalFive"> Does Next Live offer training?</li>
             </ul>
 
         </div>
@@ -125,7 +152,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title">What equiptment do we need?</h3>
+                <h3 class="modal-title">What equipment do we need?</h3>
                 <button type="button" class="close" onclick="$('#modalOne').modal('hide');">&times</button>
             </div>
             <div class="modal-body">
@@ -169,7 +196,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title">Is there flexibility in how the session are formatted? </h3>
+                <h3 class="modal-title text-center">Is there flexibility in how the sessions <br> are formatted? </h3>
                 <button type="button" class="close" onclick="$('#modalThree').modal('hide');">&times</button>
             </div>
             <div class="modal-body">
@@ -222,11 +249,11 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h2 class=" mt-5 d-flex justify-content-center"> Contact Us</h2>
+            <h1 class=" mt-5 d-flex justify-content-center" id="contactUs"> Contact Us</h1>
 
         </div>
         <div class="col-8">
-            <form class="col-sm-8 offset-sm-5">
+            <form class="col-sm-10 offset-sm-4">
                 <div class="form-group">
                     <label for="inputFName"> First Name</label>
                     <input type="text" id="inputFName" class="form-control" aria-describedby="nameHelp" placeholder="Enter First Name" >
