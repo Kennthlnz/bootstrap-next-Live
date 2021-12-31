@@ -1,29 +1,22 @@
-.jumbotron{
-    padding-top: 1rem;
-    background-color: transparent;
-    height: 200px;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    
-}
+
 .navbar{
     background-image: linear-gradient(to bottom right,rgb(134, 130, 130),rgb(241, 241, 241));
+    
 }
 .navbar a{
     font-size: 2.4rem;
-}
-.blur{
-    backdrop-filter: blur(8px);
-    background: rgba(255, 255, 255, 0.2);
-    height: 25vh;
-    width: 100%;
-}
-body{
-    background-color: rgb(255, 255, 255);
-   
-   
     font-family: 'Inter', sans-serif;
-font-family: 'Lora', serif;
-color: rgba(0, 0, 0, 0.808);
+    font-family: 'Lora', serif;
+    color: rgba(0, 0, 0, 0.808);
+
+}
+
+
+body{
+    background-color: rgb(255, 255, 255); 
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lora', serif;
+    color: rgba(0, 0, 0, 0.808);
 }
 h1{
     padding-top: 4rem;
@@ -41,9 +34,9 @@ li{
     font-size: 1.4rem;
     color: rgb(0, 0, 0);
     padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+   margin-bottom: 0;
+   background-color: rgb(255, 255, 255);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   
     /* padding-top: .60rem; */
 
@@ -69,11 +62,8 @@ li{
     
 }
 .site-footer{
-    height: 200px;
+    height: 150px;
     background-image: linear-gradient(to bottom right,rgb(134, 130, 130),rgb(241, 241, 241));
 
 
-}
-.btn-link{
-    background:transparent;
 }
